@@ -1,0 +1,21 @@
+#nav-bar {
+  background: #003684;
+  overflow: hidden;
+  height: 80px;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 6fr 2fr 3fr;
+      grid-template-columns: 6fr 2fr 3fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  width: 300px;
+  height: 80px;
+}
+/*# sourceMappingURL=nav-bar.css.map */

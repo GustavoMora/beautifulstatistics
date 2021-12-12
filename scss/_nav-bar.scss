@@ -1,0 +1,46 @@
+#nav-bar {
+    background: #003684;
+    overflow: hidden;
+    height: 80px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 6fr 2fr 3fr;
+    align-items: center;
+}
+
+.logo {
+    width: 300px;
+    height: 80px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'quicksand';
+    font-weight: 300;
+    font-size: 20px; 
+    color:#FFFFFF;
+}
+
+ul li a {
+    padding: 1.6rem;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #000000;
+}
+
+.social-media {
+    justify-self: center;
+    }
+
+.social-media i:hover {
+    color: #000000;  
+}
